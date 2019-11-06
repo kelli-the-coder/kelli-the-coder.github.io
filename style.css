@@ -1,0 +1,29 @@
+img {
+  width: 200px;
+}
+img.duck {
+  width: 400px;
+}
+body {
+  background: lightpink;
+  text-align: center;
+}
+/* the body refers to only the main background and the image, the rest of the body is set in the declarations below, the rule sets below will override the body ruleset */
+.center {
+  text-align: center;
+  font-family: "Arial";
+  background: lightpink;
+  color: darkmagenta;
+}
+p.center {
+  background: lightpink;
+  color: darkred;
+}
+p.large {
+  color: blue;
+}
+p.left {
+  text-align: left;
+  font-family: "Arial";
+  color: black;
+}
