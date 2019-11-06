@@ -1,14 +1,26 @@
 img {
-  width: 200px;
+  width: 300px;
 }
+
 img.duck {
   width: 400px;
 }
+img.baking {
+  text-align: left;
+}
+img.piano {
+  text-align: right;
+}
+
 body {
   background: lightpink;
   text-align: center;
 }
 /* the body refers to only the main background and the image, the rest of the body is set in the declarations below, the rule sets below will override the body ruleset */
+h1.center {
+  font-family: "Comic Sans MS";
+  font-size: 50px;
+}
 .center {
   text-align: center;
   font-family: "Arial";
@@ -18,12 +30,13 @@ body {
 p.center {
   background: lightpink;
   color: darkred;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
 }
-p.large {
-  color: blue;
-}
+
 p.left {
   text-align: left;
   font-family: "Arial";
   color: black;
+  font-size: 18px;
 }
