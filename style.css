@@ -11,7 +11,10 @@ img.baking {
 img.piano {
   text-align: right;
 }
-
+img.kite {
+  width: 150px;
+  text-align: left;
+}
 body {
   background: lightpink;
   text-align: center;
@@ -27,13 +30,24 @@ h1.center {
   background: lightpink;
   color: darkmagenta;
 }
-p.center {
+
+h2.center{
   background: lightpink;
   color: darkred;
   font-size: 30px;
   font-family: "Comic Sans MS";
 }
-
+p {
+  text-align: left;
+  font-family: "Arial";
+  font-size: 18px
+}
+pre {
+  font-size: 17px;
+  text-align: left;
+  font-family: "Comic Sans MS";
+  color: blue;
+}
 p.left {
   text-align: left;
   font-family: "Arial";
