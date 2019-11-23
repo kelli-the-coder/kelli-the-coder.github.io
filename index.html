@@ -5,11 +5,23 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
+    <script src="script.js"></script>
+    <div>
     <h1 class = "center"> Kelli The Coder </h1>
     <h2 class = "center red"> Hi I'm Kelli! </h2>
-    <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"> <img class = "baking" src="https://sugarplumstudio.com/wp-content/uploads/2018/12/adult_baking-2.jpg"></a>
-    <a href="https://github.com/kelli-the-coder"><img class = "code" src="https://makeawebsitehub.com/wp-content/uploads/2016/02/learn-code-e1455713167295.jpg"></a>
-    <a href="https://www.youtube.com/watch?v=CvFH_6DNRCY"><img class = "piano" src="http://www.turnerskeyboards.com/wp-content/uploads/2017/03/ivory-piano-keys.png"></a>
+    </div>
+    
+    <div style = "padding-left:16px" id="topnav">
+      <a id="bio_link" href="bio.html"> Bio </a>
+      <a id="projects_link" href="projects.html"> Projects </a>
+      <a id="drawings_link" href="drawings.html"> Drawings </a>
+      <a id="zing_link" href="zingzing.html"> Zing Zing </a>
+       </div>
+    <br>
+
+    <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"> <img class = "baking" src="baking.jpg"></a>
+    <a href="https://github.com/kelli-the-coder"><img class = "code" src="coding.jpg"></a>
+    <a href="https://www.youtube.com/watch?v=CvFH_6DNRCY"><img class = "piano" src="piano.png"></a>
     <p class = "left"> I enjoy coding, cooking, baking, playing video games, playing piano, and drawing! I hope you guys like my website! Check out my Youtube Channel <a href="https://www.youtube.com/channel/UCRHbM8sGHOGEuooxAedp3Qg">here</a>!
     </p> <hr>
     <h3> Some links to my coding projects you can play with:</h3>
@@ -19,7 +31,7 @@
       <a href="https://repl.it/@KawaiiOuran/Kelli-Quiz"> How well do you know Kelli? quiz</a>
     </p>
     <hr>
-    <h3> Join the Zing Zing religion! Scriptures can be found <a href="https://docs.google.com/document/d/1225PHH0rX3b8mddtC6sjm8p6Y6nh2GQQIOcsH5TX7I8/edit?usp=sharing"> here </a>. </h3>
+    <h3> Join the Zing Zing religion! Website can be found <a href="https://zingzing2.kawaiiouran.repl.co/"> here </a>. </h3>
     <p> Basics: <br> The sky is an ocean being kept from us by a dome. Our gods are William Smith and the cast of Fish Hooks. When we die we turn into customizable fish that go into the sky ocean. Good fish go into the clean, daytime sky ocean. Bad fish go into the polluted, nighttime sky ocean. For more information come to our meeting on Tuesday from 1am to 4am at the midpoint between Jerusalem and Israeli territories. Please consider joining the Zing Zingees!</p>
     <hr>
     <h3> Here is a poem I wrote for you all:</h3>
@@ -30,7 +42,8 @@
         
         <img class = "kite" src="http://www.drawingnow.com/file/videos/steps/119431/how-to-draw-a-kite-step-9.jpg">
       </pre>
-    
-    <img class = "duck" src="https://i.gifer.com/E25.gif">
+
+    <img class = "duck" id = "duckgif" src="duck.gif">
+    <button onclick="change_gif()"> Click to change gif </button>
   </body>
 </html>
