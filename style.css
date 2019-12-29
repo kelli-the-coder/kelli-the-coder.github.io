@@ -16,21 +16,47 @@ img.kite {
   width: 150px;
   text-align: right;
 }
+img.odyssey {
+  width: 400px;
+  float: left;
+  padding: 3px 10px;
+}
+img.worldmap {
+  height: 225px;
+  width: 395px;
+  float: left;
+  padding: 3px 10px;
+}
+img.icecream {
+  height: 230px;
+  width: 400px;
+  float: left;
+  padding: 3px 5px;
+}
+img.zingzing {
+  width: 400px;
+  height: 250px;
+}
 body {
   background: lightpink;
   text-align: center;
   font-family: "Arial";
 }
 /* the body refers to only the main background and the image, the rest of the body is set in the declarations below, the rule sets below will override the body ruleset */
+h1{
+  font-family: "Comic Sans MS";
+  color: darkmagenta;
+}
 h1.center {
   font-family: "Comic Sans MS";
   font-size: 50px;
 }
+h1.smaller {
+  font-size: 40px;
+}
 .center {
   text-align: center;
-  font-family: "Arial";
   background: lightpink;
-  color: darkmagenta;
 }
 
 h2.center{
@@ -38,6 +64,10 @@ h2.center{
   color: darkred;
   font-size: 30px;
   font-family: "Comic Sans MS";
+}
+.drawingtitle {
+  color: darkblue;
+  font-family: Arial Black;
 }
 p {
   text-align: left;
@@ -56,12 +86,32 @@ p.left {
   color: black;
   font-size: 18px;
 }
+
 h3 {
   text-align: left;
+}
+.pretty {
+  text-align: left;
+  font-family: Comic Sans MS;
+  color: darkmagenta;
+  padding: 0px 20px;
 }
 a {
   color: red;
 }
+a.homebutton {
+  font-size: 20px;
+  color: aqua;
+  text-decoration: none;
+}
+button.homebutton {
+  height: 40px;
+  background-color: darksalmon;
+}
+button.homebutton:hover {
+  background-color: lightpink;
+}
+
 #topnav {
   background-color: darksalmon;
   overflow: hidden;
