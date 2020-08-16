@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head> 
     <title> Kelli's Website </title>
     <link rel="stylesheet" href="style.css"/>
+
   </head>
+
   <body>
-    <script src="script.js"></script>
+    
+    
     <div>
     <h1 class = "center"> Kelli The Coder </h1>
-    <h2 class = "center red"> Hi I'm Kelli! </h2>
+    <h2 class = "center"> Hi I'm Kelli! </h2>
     </div>
     
-    <div style = "padding-left:16px" id="topnav">
+    <div style = "padding-left:16px;" id="topnav">
       <a id="bio_link" href="bio.html"> Bio </a>
       <a id="projects_link" href="projects.html"> Projects </a>
       <a id="drawings_link" href="drawings.html"> Drawings </a>
       <a id="zing_link" href="zingzing.html"> Zing Zing </a>
       <a id="future_link" href="future.html"> My Future </a>
+      <a id="links_link" href="links_page.html"> Links </a>
        </div>
+
     <br>
 
     <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"> <img class = "baking" src="baking.jpg"></a>
     <a href="https://github.com/kelli-the-coder"><img class = "code" src="coding.jpg"></a>
     <a href="https://www.youtube.com/watch?v=CvFH_6DNRCY"><img class = "piano" src="piano.png"></a>
-    <p class = "left"> I enjoy coding, cooking, baking, playing video games, playing piano, and drawing! I hope you guys like my website! Check out my Youtube Channel <a href="https://www.youtube.com/channel/UCRHbM8sGHOGEuooxAedp3Qg">here</a>!
+    <p style="font-size:20px; text-align:center;"> I enjoy coding, cooking, baking, playing video games, playing piano, and drawing! Click the tabs above to learn even more about me. I hope you guys like my website! Check out my Youtube Channel <a href="https://www.youtube.com/channel/UCRHbM8sGHOGEuooxAedp3Qg">here</a>!
     </p>
     <hr>
     <h3> Here is a poem I wrote for you all:</h3>
@@ -35,8 +39,12 @@
         
         <img class = "kite" src="http://www.drawingnow.com/file/videos/steps/119431/how-to-draw-a-kite-step-9.jpg">
       </pre>
-
+      <br>
+      <h3 style= "text-align: center"> Click to change gif: </h3>
+      <button id="changegif" onclick="change_gif()"> Beter </button>
+      <br>
     <img class = "duck" id = "duckgif" src="duck.gif">
-    <button onclick="change_gif()"> Click to change gif </button>
+    
+    <script src="script.js"></script>
   </body>
 </html>
