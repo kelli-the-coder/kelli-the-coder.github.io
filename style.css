@@ -1,6 +1,7 @@
 img {
   width: 300px;
   text-align: center;
+  background-color: lightpink;
 }
 img.duck {
   width: 400px;
@@ -38,7 +39,7 @@ img.zingzing {
   height: 250px;
 }
 body {
-  background: lightpink;
+  background-color: lightpink;
   text-align: center;
   font-family: "Arial";
 }
@@ -50,20 +51,26 @@ h1{
 h1.center {
   font-family: "Comic Sans MS";
   font-size: 50px;
+  background-color: lightpink;
 }
 h1.smaller {
   font-size: 40px;
 }
 .center {
   text-align: center;
-  background: lightpink;
+  background-color: lightpink;
 }
 
 h2.center{
-  background: lightpink;
+  background-color: lightpink;
   color: darkred;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Comic Sans MS";
+}
+h2.link_title{
+  color: darkred;
+  font-family: Arial 'Courier New', Courier, monospace;
+  text-align: left;
 }
 .drawingtitle {
   color: darkblue;
@@ -71,8 +78,10 @@ h2.center{
 }
 p {
   text-align: left;
-  font-family: "Arial";
-  font-size: 18px
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 18px;
+  background-color: lightpink;
 }
 pre {
   font-size: 17px;
@@ -99,6 +108,13 @@ h3 {
 a {
   color: red;
 }
+a.link_page_link {
+  text-align: left;
+  font-size: 17px;
+  color: black;
+  font-family: "Courier";
+  font-weight: bold;
+}
 a.homebutton {
   font-size: 20px;
   color: aqua;
@@ -112,6 +128,18 @@ button.homebutton:hover {
   background-color: lightpink;
 }
 
+button#changegif{
+  height: 40px;
+  width: 140px;
+  background-color: aqua;
+  color: black;
+  font-size: 25px;
+  font-family: "Comic Sans MS";
+  font-weight: bolder;
+}
+button#changegif:hover{
+  background-color: lightpink;
+}
 #topnav {
   background-color: darksalmon;
   overflow: hidden;
